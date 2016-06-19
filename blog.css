@@ -1,0 +1,75 @@
+html {
+        background: url(http://pnimg.net/w/articles/0/569/53906f2f36.jpg);
+        background-size: 100% auto; 
+        background-attachment: fixed;
+      }
+
+header{
+	background-color: black;
+}
+h1#Naslovna{
+	color: red;
+}
+p#MovePicLogo {
+	top: 0px;
+	right: 0px;
+	position: absolute;
+}
+img#moveLogo{
+	float: right;
+}
+nav.navBar {
+	width: 100%;
+	position: absolute;
+	top: 141px;
+}
+nav.navBar ol#naviga li:hover{
+	background-color: red;
+	color: #0F0F7D;
+}
+ol#naviga li{
+	background-color: black;
+	display: inline-block;
+}
+ul.boxxx li{
+	background-color: rgba(0,0,0,0.9);
+	color: red;
+	width: 80%;
+	margin: auto;
+	border: 4px solid white;
+	vertical-align:top;
+}
+table#tabelaUtakmica{
+	width: 100%;
+	background-color: black;
+	color: red;
+	border: 1px solid white;
+	padding: 10px;
+}
+table#tabelaUtakmica caption{
+	background-color: red;
+	color: black;
+	font-size: 200%;
+	border: 1px solid black;
+}
+table#tabelaUtakmica th{
+	border: 4px solid white;
+	padding: 20px;
+	font-size: 150%;
+	background-color: black;
+	color: red;
+}
+table#tabelaUtakmica td{
+	border: 2px solid white;
+	padding: 15px;
+	text-align: center;
+}
+table#tabelaUtakmica td:nth-child(3){
+	font-size: 150%;
+	padding: 2px;
+	text-align: center;
+}
+footer#kontaktFooter{
+	background-color: rgba(0,0,0,0.9);
+	color: red;
+}
